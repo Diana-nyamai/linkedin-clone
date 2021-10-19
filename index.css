@@ -36,7 +36,7 @@ nav{
     line-height: 40px;
     font-size: 14px
 }
-.nav-container .nav .active{
+.nav-container .nav .a{
     background: #fff;
     border: 1.5px solid #0a66c2;
     border-radius: 30px;

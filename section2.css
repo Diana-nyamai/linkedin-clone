@@ -9,6 +9,7 @@
     display: flex;
     justify-content: flex-end;
     width: 50%;
+    flex-wrap: wrap;
 }
 .j-left h1{
     width: 50%;
@@ -22,6 +23,7 @@
     width: 50%;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
 }
 .j-right p{
     font-weight: 600;
@@ -81,6 +83,7 @@
       display: grid;
       grid-template-columns: repeat(3, auto);
       gap: 10px;
+      flex-wrap: wrap;
   }
   .content ul li{
     border-radius: 28px;
@@ -96,4 +99,57 @@
 .content p{
     font-size: 16px;
     padding: 10px 0 20px 0;
+}
+@media all and (max-width: 768px){
+    .j-left{
+        width: 100%;
+        justify-content: center;
+    }
+    .j-right{
+        width: 100%;
+        justify-content: center;
+    }
+    .collapsible ul{
+        padding: 20px;
+        grid-template-columns: repeat(2, auto);
+    }
+    .content ul{
+        padding: 20px;
+        grid-template-columns: repeat(2, auto);
+    }
+}
+@media all and (max-width: 320px){
+    .content ul{
+        grid-template-columns: repeat(1, auto);
+    }
+}
+/* post job styling */
+.p-containter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 30px;
+    width: 100%;
+}
+.p-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+}
+.p-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+}
+.p-right p a{
+    padding: 20px;
+    border: 1px solid black;
 }
