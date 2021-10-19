@@ -1,0 +1,11 @@
+.j-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.j-left{
+    display: flex;
+    justify-content: center;
+}

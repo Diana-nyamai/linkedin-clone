@@ -55,20 +55,26 @@ nav{
 /* the form styling */
 .header{
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
-    margin: 20px;
+    justify-content: center;
 }
+
 .contact-form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     padding: 70px 50px;
-    max-width: 30%;
+    width: 30%;
     height: 100%;
     background:#fff;
-    margin: 10px;
+    margin: 30px;
  
 }
-.contact-form h3{
+.contact-form h1{
+    color: #8f5849;
+    font-weight: 200;
     margin: 20px 0;
+    font-size: 2.6rem;
 }
 .contact-form .form-box{
     display: flex;
@@ -79,7 +85,7 @@ nav{
 }
 .contact-form .form-box .input-box{
     position: relative;
-    margin-bottom: 35px;
+    margin-bottom: 20px;
 }
 .contact-form .form-box .input-box.w50{
    width: 100%;
@@ -90,7 +96,7 @@ nav{
 .contact-form .form-box .input-box input{
     width: 100%;
     resize: none;
-    padding: 5px 0;
+    padding: 15px 0;
     font-size: 17px;
     color: #333;
     border: none;
@@ -100,17 +106,26 @@ nav{
 .contact-form .form-box .input-box span{
     position: absolute;
     padding: 5px 0;
-    left: 0;
+    left: 20px;
+    top: 10px;
     pointer-events: none;
-    font-size: 17px;
+    font-size: 14px;
     transition: 0.3s;
+    color: #676767;
 }
 .contact-form .form-box .input-box input:focus ~ span,
 .contact-form .form-box .input-box input:valid ~ span{
-    transform: translateY(-20px);
+    transform: translateY(-12px);
     font-size: 12px;
     letter-spacing: 1px;
 }
+.form-box .f-pass{
+    margin-top: 20px;
+}
+.form-box .f-pass a{
+    color: #666666;
+}
+
 .contact-form .form-box .input-box input[type="submit"]{
     position: relative;
     cursor: pointer;
@@ -120,9 +135,25 @@ nav{
 }
 .contact-form .form-box .input-box input[type="submit"]:hover{
     background: #0a66c2;
-}
+} 
 
 .h-img{
-   width: 50%;
+   width: 40%;
    margin: 20px;
+   display: flex;
+   justify-content: center;
+}
+
+@media all and (max-width: 1024px){
+    .h-img img{
+        width: 100%;
+    }
+}
+@media all and (max-width: 768px){
+    .contact-form{
+        width: 150%;
+    }
+    .h-img img{
+       width: 150%;
+    }
 }
