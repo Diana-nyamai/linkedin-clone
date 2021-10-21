@@ -72,3 +72,98 @@
   }
   .dropdown-content a:hover {background-color: #ddd}
   .show {display:block;}
+
+  /* who it is meant for section styling */
+  .m-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  .m-left{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    min-height: 800px;
+    width: 90%;
+    background: #faf9f7;
+
+  }
+  .mleft-content{
+    position: absolute;
+    height: 800px;
+    /* padding: 40px; */
+    display: flex;
+    width: 60%;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .mleft-content h2{
+      color: #b24020;
+      font-size: 40px;
+      font-weight: 400;
+  }
+  .mleft-content h3{
+      font-size: 32px;
+      font-weight: 200;
+      line-height: 1.25;
+      margin-bottom: 40px;
+  }
+.co{
+       padding: 8px 20px;
+       background: #f1ece5;
+       margin: 10px 0;
+       width: 400px;
+  }
+.co::after{
+    content: '\003E';
+    color: black;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+  .find{
+    padding: 8px 20px;
+    background: #f1ece5;
+    margin: 10px 0;
+    width: 400px;
+  }
+  .find::after{
+    content: '\003E';
+    color: black;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+  .train{
+    padding: 8px 20px;
+    background: #f1ece5;
+    margin: 10px 0;
+    width: 400px;
+  }
+  .train::after{
+    content: '\003E';
+    color: black;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+  .m-right{
+    padding: 70px 50px;
+
+    width: 100%;
+    height: 100%;
+    background: white;
+  }
+  @media all and (max-width: 768px){
+      .m-container{
+          flex-wrap: wrap;
+      }
+      .m-left{
+         width: 100%;
+      }
+      .m-right{
+          width: 100%;
+      }
+  }
