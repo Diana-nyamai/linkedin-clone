@@ -1,7 +1,12 @@
+.m-slide-container{
+    width: 100%;
+    background: #faf9f7;
+}
 .slideshow-container {
     width: 80%;
     position: relative;
     margin: auto;
+
   }
   
   /* Hide the images by default */
@@ -33,6 +38,9 @@
   }
   .slides-txt P{
       font-size: 32px;
+      font-weight: 200;
+      color: #5e5e5d;
+      padding-top: 10px;
   }
   .slides-img{
       width: 50%;
