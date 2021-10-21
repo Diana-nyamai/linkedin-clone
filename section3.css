@@ -74,7 +74,7 @@
   .show {display:block;}
 
 
-  
+
   /* who it is meant for section styling */
   .m-container{
     display: flex;
@@ -94,7 +94,6 @@
   .mleft-content{
     position: absolute;
     height: 800px;
-    /* padding: 40px; */
     display: flex;
     width: 60%;
     justify-content: center;
@@ -168,4 +167,76 @@
       .m-right{
           width: 100%;
       }
+      .co,
+      .find,
+      .train{
+          width: 200px;
+      }
   }
+
+  /* youtubr section */
+  section{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+}
+.left-image{
+    display: flex;
+    align-items: center;
+    height: 600px;
+    border-radius: 8px;
+}
+.left-image iframe{
+    border-radius: 5px;
+}
+
+.right-text{
+    width: 50%;
+    min-height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:30px;
+    background: #f4faff;
+    border-radius: 8px;
+    margin-left: -100px;
+}
+.right-text p{
+    font-size: 17px;
+}
+.about-content h4{
+   padding: 15px;
+}
+.about-content h1{
+    padding-bottom: 15px;
+ }
+
+@media all and (max-width: 768px){
+     .about-container{
+         flex-direction: column;
+         width: 100%;
+         margin: 0 20px;
+         overflow: hidden;
+     }
+     .left-image{
+         width: 100%;
+         text-align: center;
+     }
+     .left-image{
+         text-align: center;
+     }
+     .right-text{
+         width: 80%;
+         margin: 0;
+         margin-top: -150px;
+     }
+}
