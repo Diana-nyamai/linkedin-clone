@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./index.css">
     <link rel="stylesheet" href="./section2.css">
     <link rel="stylesheet" href="./carousel.css">
+    <link rel="stylesheet" href="./section3.css">
 </head>
 
 <body>
@@ -143,13 +144,23 @@
  <!-- connect with people -->
  <div class="c-container">
      <div class="c-left">
-        <img src="./c1.svg" alt="connect" width="30%">
-        <h2>Connect with people who can help</h2>
+         <div><img src="./c1.svg" alt="connect" width="60%"></div>
+        
+        <h2 >Connect with people who can help</h2>
         <p><a href="">Find people you know</a></p>
      </div>
      <div class="c-right">
-        <img src="./c2.svg" alt="connect"  width="30%">
+        <img src="./c2.svg" alt="connect"  width="60%">
         <h2>Learn the skills you need to succeed</h2>
+        <!-- dropdown -->
+        <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn">Choose a topic to learn about &nbsp;&nbsp; &#x25BC;</button>
+            <div id="myDropdown" class="dropdown-content">
+              <a href="#">marketing</a>
+              <a href="#">mobile Development</a>
+              <a href="#">animation and illustrations</a>
+            </div>
+          </div>
      </div>
  </div>
 
