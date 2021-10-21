@@ -123,29 +123,26 @@
         grid-template-columns: repeat(1, auto);
     }
 }
+
 /* post job styling */
 .p-containter{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    flex-direction: row;
     padding: 30px;
     width: 100%;
 }
 .p-left{
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
-    width: 50%;
     padding: 10px;
     text-align: center;
 }
 .p-right{
     display: flex;
-    justify-content: center;
     align-items: center;
-    width: 50%;
     padding: 10px;
     text-align: center;
 }
