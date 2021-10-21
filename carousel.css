@@ -8,6 +8,30 @@
   .mySlides {
     display: none;
   }
+  .slides{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+      padding: 100px;
+  }
+  .main-slides{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .slides-txt{
+      width: 50%;
+  }
+  .slides-img{
+      width: 50%;
+      border-radius: 50%;
+  }
+  .slides-img img{
+      border-radius: 50%;
+  }
   
   /* Next & previous buttons */
   .prev, .next {
