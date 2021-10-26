@@ -1,0 +1,29 @@
+footer{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background: #faf9f7;
+    padding: 20px 0;
+}
+.f-content{
+    padding: 0 20px;
+    margin: 0 20px;
+}
+.f-content h3{
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: #000000e6;
+    font-weight: 600;
+}
+.f-content li{
+    padding: 2px 0;
+    font-weight: 600;
+    font-size: 14px;
+}
+.f-content li a{
+    color: #666666;
+}
+.f-content li:hover{
+    text-decoration: underline;
+}
