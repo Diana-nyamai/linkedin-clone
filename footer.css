@@ -1,4 +1,5 @@
 footer{
+    width: 100vw;
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -25,5 +26,31 @@ footer{
     color: #666666;
 }
 .f-content li:hover{
+    text-decoration: underline;
+}
+@media all and (max-width: 879px){
+    .f-content{
+        width: 100%;
+       text-align: center;
+    }
+}
+
+/* bottom footer */
+.b-footer ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.b-footer li{
+    padding: 0 5px;
+    font-size: 12px;
+    font-weight: 600;
+}
+.b-footer li a{
+    color: #666
+}
+.b-footer li a:hover{
     text-decoration: underline;
 }
