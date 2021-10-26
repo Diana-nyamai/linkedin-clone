@@ -81,14 +81,13 @@
     background-color: #717171;
   }
   
-  @media all and (max-width: 1025px){
-    .slides-txt,
-    .slides-img{
-         width: 100%;
-    }
+  @media all and (max-width: 768px){
     .slides-txt{
          width: 100%;
          padding-right: 0;
+    }
+    .slides-img{
+      width: 100%;
     }
   }
  

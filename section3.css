@@ -252,8 +252,12 @@
          text-align: center;
      }
      .right-text{
-         width: 80%;
+         width: 100%;
          margin: 0;
          margin-top: -150px;
+     }
+     .about-content h2,
+     .about-content h3{
+       width: 100%;
      }
 }
