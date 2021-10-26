@@ -36,13 +36,18 @@ nav{
     line-height: 40px;
     font-size: 14px
 }
+.nav-container .nav a:hover{
+  background:#ebebeb  ;
+}
 .nav-container .nav .a{
     background: #fff;
     border: 1.5px solid #0a66c2;
     border-radius: 30px;
     color: #0a66c2;
-    text-align: center;
-    
+    text-align: center;  
+}
+.nav-container .nav .a:hover{
+    background:#eaf4fe ;
 }
 @media all and (max-width: 600px){
     nav{
@@ -135,7 +140,8 @@ nav{
     border: none;padding: 15px;
 }
 .contact-form .form-box .input-box input[type="submit"]:hover{
-    background: #0a66c2;
+    background: #004182;
+    text-decoration: underline;
 } 
 
 .h-img{

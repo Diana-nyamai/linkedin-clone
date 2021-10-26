@@ -31,9 +31,14 @@ footer{
 @media all and (max-width: 879px){
     .f-content{
         width: 100%;
-       text-align: center;
     }
 }
+@media all and (min-width: 1600px){
+    .f-content{
+       margin: 0 50px;
+    }
+}
+
 
 /* bottom footer */
 .b-footer ul{

@@ -54,6 +54,9 @@
     padding: 8px 8px;
     background: #e6e6e4;
 }
+.collapsible ul li:hover{
+    text-decoration: underline;
+}
 .collapsible ul li a{
     color: #5d5d5c;
 }
@@ -92,6 +95,9 @@
     background: #e6e6e4;
     font-weight: 600;
     font-size: 20px;
+  }
+  .content ul li:hover{
+      text-decoration: underline;
   }
   .content ul li a{
     color: #5d5d5c;
@@ -153,6 +159,10 @@
     padding: 8px 20px;
     border: 1px solid black;
     border-radius: 28px;
+}
+.p-right p a:hover{
+    background: #c0bcb7;
+    text-decoration: underline;
 }
 @media all and (max-width: 600px){
     .p-containter{
